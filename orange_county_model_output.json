@@ -1,0 +1,309 @@
+{
+  "model_version": "v3_city_level_orange_county",
+  "target_price_range": [
+    1500000,
+    1600000
+  ],
+  "max_price_with_10pct_stretch": 1760000.0,
+  "commute_filter": "Excluded areas south of Lake Forest",
+  "county_price_forecast_10y": {
+    "2024": 1114675.85,
+    "2025": 1182252.95,
+    "2026": 1252301.53,
+    "2027": 1324864.93,
+    "2028": 1399985.92,
+    "2029": 1477706.64,
+    "2030": 1558068.55,
+    "2031": 1641112.43,
+    "2032": 1726878.26,
+    "2033": 1817002.17
+  },
+  "city_count_modeled": 26,
+  "top_city_recommendations": [
+    {
+      "city": "Seal Beach",
+      "current_typical_price": 1540726.0,
+      "forecast_annual_appreciation": 6.09,
+      "projected_price_in_10y": 2783010.0,
+      "sed_score": 48.49,
+      "school_quality_proxy_score": 56.73,
+      "why": "Within target or <=10% over-budget with strong school/prospect balance"
+    },
+    {
+      "city": "North Tustin",
+      "current_typical_price": 1691962.0,
+      "forecast_annual_appreciation": 6.8,
+      "projected_price_in_10y": 3267188.0,
+      "sed_score": 78.77,
+      "school_quality_proxy_score": 81.16,
+      "why": "Within target or <=10% over-budget with strong school/prospect balance"
+    },
+    {
+      "city": "Yorba Linda",
+      "current_typical_price": 1439394.0,
+      "forecast_annual_appreciation": 6.3,
+      "projected_price_in_10y": 2650945.0,
+      "sed_score": 67.1,
+      "school_quality_proxy_score": 70.63,
+      "why": "Within 10% over-budget allowance and commute-eligible"
+    },
+    {
+      "city": "Huntington Beach",
+      "current_typical_price": 1377537.0,
+      "forecast_annual_appreciation": 6.54,
+      "projected_price_in_10y": 2596675.0,
+      "sed_score": 49.98,
+      "school_quality_proxy_score": 54.76,
+      "why": "Within 10% over-budget allowance and commute-eligible"
+    },
+    {
+      "city": "Fountain Valley",
+      "current_typical_price": 1328769.0,
+      "forecast_annual_appreciation": 6.97,
+      "projected_price_in_10y": 2607528.0,
+      "sed_score": 44.25,
+      "school_quality_proxy_score": 50.71,
+      "why": "Within 10% over-budget allowance and commute-eligible"
+    }
+  ],
+  "all_city_metrics": [
+    {
+      "city": "North Tustin",
+      "latest_price": 1691962.0,
+      "forecast_annual_appreciation_pct": 6.8,
+      "price_in_10y": 3267188.0,
+      "sed_score": 78.77,
+      "school_quality_proxy_score": 81.16,
+      "investment_score": 43.14
+    },
+    {
+      "city": "Villa Park",
+      "latest_price": 2206704.0,
+      "forecast_annual_appreciation_pct": 6.92,
+      "price_in_10y": 4307782.0,
+      "sed_score": 77.56,
+      "school_quality_proxy_score": 74.4,
+      "investment_score": 41.76
+    },
+    {
+      "city": "Newport Beach",
+      "latest_price": 3883984.0,
+      "forecast_annual_appreciation_pct": 6.75,
+      "price_in_10y": 7461328.0,
+      "sed_score": 74.04,
+      "school_quality_proxy_score": 73.06,
+      "investment_score": 40.25
+    },
+    {
+      "city": "Yorba Linda",
+      "latest_price": 1439394.0,
+      "forecast_annual_appreciation_pct": 6.3,
+      "price_in_10y": 2650945.0,
+      "sed_score": 67.1,
+      "school_quality_proxy_score": 70.63,
+      "investment_score": 37.23
+    },
+    {
+      "city": "La Palma",
+      "latest_price": 1145543.0,
+      "forecast_annual_appreciation_pct": 6.66,
+      "price_in_10y": 2183726.0,
+      "sed_score": 58.6,
+      "school_quality_proxy_score": 64.68,
+      "investment_score": 33.54
+    },
+    {
+      "city": "Irvine",
+      "latest_price": 1808986.0,
+      "forecast_annual_appreciation_pct": 7.06,
+      "price_in_10y": 3580080.0,
+      "sed_score": 59.53,
+      "school_quality_proxy_score": 55.14,
+      "investment_score": 32.64
+    },
+    {
+      "city": "Lake Forest",
+      "latest_price": 1298839.0,
+      "forecast_annual_appreciation_pct": 6.6,
+      "price_in_10y": 2460480.0,
+      "sed_score": 55.45,
+      "school_quality_proxy_score": 57.57,
+      "investment_score": 31.34
+    },
+    {
+      "city": "Brea",
+      "latest_price": 1125056.0,
+      "forecast_annual_appreciation_pct": 6.04,
+      "price_in_10y": 2022429.0,
+      "sed_score": 54.69,
+      "school_quality_proxy_score": 60.04,
+      "investment_score": 31.17
+    },
+    {
+      "city": "Cypress",
+      "latest_price": 1068686.0,
+      "forecast_annual_appreciation_pct": 6.41,
+      "price_in_10y": 1988703.0,
+      "sed_score": 53.76,
+      "school_quality_proxy_score": 58.7,
+      "investment_score": 30.82
+    },
+    {
+      "city": "Huntington Beach",
+      "latest_price": 1377537.0,
+      "forecast_annual_appreciation_pct": 6.54,
+      "price_in_10y": 2596675.0,
+      "sed_score": 49.98,
+      "school_quality_proxy_score": 54.76,
+      "investment_score": 28.98
+    },
+    {
+      "city": "Seal Beach",
+      "latest_price": 1540726.0,
+      "forecast_annual_appreciation_pct": 6.09,
+      "price_in_10y": 2783010.0,
+      "sed_score": 48.49,
+      "school_quality_proxy_score": 56.73,
+      "investment_score": 28.53
+    },
+    {
+      "city": "Costa Mesa",
+      "latest_price": 1399386.0,
+      "forecast_annual_appreciation_pct": 6.7,
+      "price_in_10y": 2676300.0,
+      "sed_score": 45.71,
+      "school_quality_proxy_score": 49.17,
+      "investment_score": 26.72
+    },
+    {
+      "city": "Fountain Valley",
+      "latest_price": 1328769.0,
+      "forecast_annual_appreciation_pct": 6.97,
+      "price_in_10y": 2607528.0,
+      "sed_score": 44.25,
+      "school_quality_proxy_score": 50.71,
+      "investment_score": 26.58
+    },
+    {
+      "city": "Orange",
+      "latest_price": 1148411.0,
+      "forecast_annual_appreciation_pct": 6.33,
+      "price_in_10y": 2121975.0,
+      "sed_score": 45.37,
+      "school_quality_proxy_score": 48.57,
+      "investment_score": 26.33
+    },
+    {
+      "city": "Placentia",
+      "latest_price": 1110917.0,
+      "forecast_annual_appreciation_pct": 6.44,
+      "price_in_10y": 2072946.0,
+      "sed_score": 44.68,
+      "school_quality_proxy_score": 49.09,
+      "investment_score": 26.22
+    },
+    {
+      "city": "Tustin",
+      "latest_price": 1318203.0,
+      "forecast_annual_appreciation_pct": 6.44,
+      "price_in_10y": 2460840.0,
+      "sed_score": 43.36,
+      "school_quality_proxy_score": 45.07,
+      "investment_score": 25.16
+    },
+    {
+      "city": "Buena Park",
+      "latest_price": 919382.0,
+      "forecast_annual_appreciation_pct": 6.38,
+      "price_in_10y": 1706670.0,
+      "sed_score": 37.86,
+      "school_quality_proxy_score": 43.88,
+      "investment_score": 23.02
+    },
+    {
+      "city": "Los Alamitos",
+      "latest_price": 1551536.0,
+      "forecast_annual_appreciation_pct": 6.32,
+      "price_in_10y": 2863259.0,
+      "sed_score": 33.76,
+      "school_quality_proxy_score": 39.58,
+      "investment_score": 20.91
+    },
+    {
+      "city": "Fullerton",
+      "latest_price": 1082917.0,
+      "forecast_annual_appreciation_pct": 6.22,
+      "price_in_10y": 1979188.0,
+      "sed_score": 35.21,
+      "school_quality_proxy_score": 36.06,
+      "investment_score": 20.84
+    },
+    {
+      "city": "La Habra",
+      "latest_price": 925249.0,
+      "forecast_annual_appreciation_pct": 6.28,
+      "price_in_10y": 1701082.0,
+      "sed_score": 27.32,
+      "school_quality_proxy_score": 34.19,
+      "investment_score": 17.83
+    },
+    {
+      "city": "Anaheim",
+      "latest_price": 957460.0,
+      "forecast_annual_appreciation_pct": 6.23,
+      "price_in_10y": 1751952.0,
+      "sed_score": 26.72,
+      "school_quality_proxy_score": 29.25,
+      "investment_score": 16.85
+    },
+    {
+      "city": "Garden Grove",
+      "latest_price": 991088.0,
+      "forecast_annual_appreciation_pct": 6.79,
+      "price_in_10y": 1911260.0,
+      "sed_score": 24.07,
+      "school_quality_proxy_score": 27.69,
+      "investment_score": 15.97
+    },
+    {
+      "city": "Santa Ana",
+      "latest_price": 895757.0,
+      "forecast_annual_appreciation_pct": 6.5,
+      "price_in_10y": 1681822.0,
+      "sed_score": 23.03,
+      "school_quality_proxy_score": 28.7,
+      "investment_score": 15.62
+    },
+    {
+      "city": "Silverado",
+      "latest_price": 1021908.0,
+      "forecast_annual_appreciation_pct": 6.0,
+      "price_in_10y": 1830442.0,
+      "sed_score": 26.54,
+      "school_quality_proxy_score": 19.9,
+      "investment_score": 15.27
+    },
+    {
+      "city": "Stanton",
+      "latest_price": 852248.0,
+      "forecast_annual_appreciation_pct": 7.1,
+      "price_in_10y": 1692874.0,
+      "sed_score": 15.1,
+      "school_quality_proxy_score": 21.41,
+      "investment_score": 12.05
+    },
+    {
+      "city": "Westminster",
+      "latest_price": 1053425.0,
+      "forecast_annual_appreciation_pct": 6.5,
+      "price_in_10y": 1976968.0,
+      "sed_score": 13.7,
+      "school_quality_proxy_score": 14.11,
+      "investment_score": 10.16
+    }
+  ],
+  "notes": [
+    "School projections are socioeconomic proxies (SED + poverty-adjusted school quality proxy) due lack of stable free longitudinal school outcomes API for all Orange County cities.",
+    "Use this as a shortlist tool, then validate individual attendance boundaries, school assignment, and property-level comparables before purchase."
+  ]
+}
